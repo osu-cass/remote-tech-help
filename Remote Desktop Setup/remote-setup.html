@@ -1,0 +1,43 @@
+<html>
+
+<header><title>Remote Desktop Setup</title></header>
+
+<body>
+<a href="../index.html">Home</a>
+<p><strong>Client Configuration:</strong>&nbsp; (see images below for illustration)</p>
+
+<ol>
+	<li>Launch the Remote Desktop client in Windows.</li>
+	<li>In the field labeled &quot;Computer,&quot; enter the fully-qualified domain name (full Internet name) of the target computer (the user's office computer).
+	<ul>
+		<li><strong>Dynamic IPs: </strong>If the computer is in a dynamic address range, you will need to remote to the IP address of the computer instead of the host name. Note that the IP address could change in a dynamic range, but it probably won't so long as the computer stays on and connected to the network (it will keep renewing it's IP address).</li>
+	</ul>
+	</li>
+	<li>Click the &quot;Show Options&quot; button in the lower-left corner of the dialog box.<br>
+	<img style="width: 407px; height: 253px;" alt src="./viewer.png"></li>
+	<li>Click the &quot;Advanced&quot; tab.</li>
+	<li>Click the &quot;Settings...&quot; button in the lower-left corner of the Advanced tab.<br>
+	<img style="width: 407px; height: 474px;" alt src="./Viewer (1).png"></li>
+	<li>Select the radio button labeled &quot;User these RD Gateway server settings.&quot;</li>
+	<li>In the field labeled &quot;Server name,&quot; enter &quot;<strong>desktop.oregonstate.edu</strong>&quot;<br>
+	<img style="width: 407px; height: 440px;" alt src="./Viewer (2).png">
+	<ul>
+		<li>Note: this is the address of the Remote Desktop gateway cluster; it is <strong><u>not</u></strong> the address of the target desktop computer.</li>
+	</ul>
+	</li>
+	<li>Select the check box for &quot;Bypass RD Gateway server for local addresses&quot;</li>
+	<li>Leave remaining options at default values.
+	<ul>
+		<img style="border-width: 1px; border-style: solid; width: 400px; height: 410px;" alt src="./Viewer (3).png">
+		<li>Note: if the customer logs into their remote computer with their OSU credentials, you can have them check the box to &quot;Use my RD Gateway credentials for the remote computer.&quot;&nbsp;</li>
+	</ul>
+	</li>
+	<li>Click &quot;OK&quot; on the settings screen.</li>
+	<li>Click &quot;Connect&quot; on the connection connection dialog.</li>
+	<li>Follow prompts to login to the RD gateway.</li>
+	<li>Follow prompts to login to the target computer (user's office computer)<br>
+	<br>
+	&nbsp;</li>
+</ol>
+</body>
+</html>
